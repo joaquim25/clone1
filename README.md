@@ -2,7 +2,7 @@
 This is a Netflix clone responsive website built using HTML and CSS only. It aims to replicate the user interface and basic functionality of the Netflix website. The project was developed with the primary goal of advancing my proficiency in HTML and CSS.
 
 ## Live Demo
-Check out the live demo of the Netflix clone: [Netflix Clone Demo](https://joaquim25.github.io/netflix-clone/).
+Check out the live demo of the Netflix clone: [Netflix Clone Demo](https://joaquim25.github.io/clone1/).
 > Note: Due to the nature of this project being a Netflix clone, some web browsers may issue a phishing warning. Please ensure you are accessing the demo from a trusted source and exercise caution while interacting with the website.
 
 ## Features
