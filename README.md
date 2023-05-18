@@ -13,7 +13,6 @@ Check out the live demo of the Netflix clone: [Netflix Clone Demo](https://joaqu
 - Splash Section: The website has a splash section with a background image.
 - Sections: The website contains multiple sections, each with a distinct content. These sections include text, images and videos.
 - FAQ Section: The website includes an FAQ section that consists of a list of questions that can be expanded to reveal answers when clicked.
-
 - Styling and Layout: The CSS file defines various styles for different elements of the website, including typography, colors, spacing, borders, and backgrounds. The layout is primarily based on a grid system, utilizing CSS grid properties for consistent positioning and alignment.
 - Responsive Media: The website handles media elements responsively, adjusting their sizes and positions based on the screen size.
 - Hover Effects: The CSS file defines hover effects for certain elements, such as buttons, creating visual feedback when the user hovers over them.
