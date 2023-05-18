@@ -21,7 +21,7 @@ Check out the live demo of the Netflix clone: [Netflix Clone Demo](https://joaqu
 ![Screenshots-preview](https://github.com/joaquim25/netflix-clone/blob/main/assets/screenshots.png)
 
 ## Installation
-Clone the repository: git clone https://github.com/your-username/netflix-clone.git
+Clone the repository: git clone https://github.com/joaquim25/clone1.git
 Navigate to the project directory: cd netflix-clone
 
 ## Usage
