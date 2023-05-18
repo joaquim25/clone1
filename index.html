@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ------------------------------------ Header --------------------------------------- -->
+
+    <header>
+        <div>
+            <a href="#" class="logo">
+                <svg viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                    class="default-ltr-cache-mv4tc2 eaitdun1">
+                    <g>
+                        <path
+                            d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z">
+                        </path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <div class="nav-right">
+            <div class="select">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                </svg>
+                <select>
+                    <option value="">Português</option>
+                    <option value="">English</option>
+                </select>
+            </div>
+            <a class="button" href="#">Iniciar sessão</a>
+        </div>
+    </header>
+
+    <!-- ------------------------------------ CTA ---------------------------------------  -->
+
+    <div class="splash">
+        <div class="background">
+            <img
+                src="https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/ef526658-af44-4f4d-b28d-529518d319b5/PT-pt-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg">
+            <div class="gradient"></div>
+        </div>
+        <div class="content cta">
+            <div>
+                <h1>Acesso ilimitado a filmes, séries e muito mais</h1>
+                <h2>Veja em qualquer lugar. Cancele quando quiser.</h2>
+                <h3>Quer começar a ver? Introduza o seu e-mail para criar ou reativar a sua conta.</h3>
+                <form>
+                    <div>
+                        <input type="email">
+                        <span>Endereço de e-mail</span>
+                    </div>
+                    <div>
+                        <button>Começar &gt;</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ------------------------------------ Sections --------------------------------------- -->
+
+    <section>
+        <div class="texts">
+            <h1>Veja a Netflix no seu televisor</h1>
+            <p>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, leitores de Blu-ray e muito mais.</p>
+
+        </div>
+        <div class="media s1">
+            <div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                    alt="A TV playing netflix app preview">
+                <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                    type="video/mp4" autoplay="" playsinline="" muted="" loop=""></video>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="texts">
+            <h1>Transfira os seus programas para ver offline</h1>
+            <p>Guarde os seus favoritos e tenha sempre algo para ver.</p>
+        </div>
+        <div class="media s2">
+            <img alt src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+            <div class="download">
+                <img class="cover"
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
+                <div class="download-text">
+                    <p>Stranger Things</p>
+                    <span>A transferir...</span>
+                </div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="texts">
+            <h1>Veja em qualquer lugar</h1>
+            <p>Veja em streaming com acesso ilimitado a séries e filmes no seu telefone, tablet, computador e televisor.
+            </p>
+        </div>
+        <div class="media s3">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                type="video/mp4" autoplay="" playsinline="" muted="" loop=""></video>
+        </div>
+    </section>
+
+    <section class="last">
+        <div class="texts">
+            <h1>Crie perfis para crianças</h1>
+            <p>As crianças também poderão descobrir novas aventuras e encontrar os seus personagens favoritos num espaço
+                dedicado, que está incluído na sua adesão.</p>
+        </div>
+        <div class="media">
+            <img src="https://occ-0-5184-358.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABV0ScEuTC1vT3bb6-06nXjLUg-N9kDawPoFgvUqMF-NkVzaERivbyrihKa9-EOqp3e2L9_u2b5awzT6Ord5vWiwUg-Q4rfJrpsy6.png?r=38b"
+                alt="Netflix Crianças">
+        </div>
+    </section>
+
+    <!-- ------------------------------------ FAQ --------------------------------------- -->
+
+    <div class="faq cta">
+        <h1>Perguntas frequentes</h1>
+        <div class="questions">
+
+            <div class="question">
+                <input type="checkbox" id="q1">
+                <label class="header" for="q1">
+                    O que é a Netflix?
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </label>
+                <div class="answer">
+                    <p>Netflix é um serviço de streaming que oferece uma grande variedade de séries de televisão,
+                        filmes,
+                        títulos de animé, documentários e outros conteúdos premiados que podem ser vistos em milhares de
+                        dispositivos com uma ligação à internet.<br><br>
+
+                        Pode ver tudo o que quiser, quando quiser, sem anúncios. Tudo por um baixo custo mensal. Há
+                        sempre
+                        novos conteúdos para descobrir e todas as semanas são adicionados novos filmes e séries!</p>
+                </div>
+            </div>
+
+            <div class="question">
+                <input type="checkbox" id="q2">
+                <label class="header" for="q2">
+                    Quanto custa a Netflix?
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+
+                </label>
+                <div class="answer">
+                    <p>Veja a Netflix no seu smartphone, tablet, Smart TV, computador ou dispositivo de streaming, tudo
+                        isto por um preço mensal fixo. Os preços dos planos variam entre 7,99 € e 15,99 € por mês. Sem
+                        custos adicionais, nem contratos.</p>
+                </div>
+            </div>
+
+            <div class="question">
+                <input type="checkbox" id="q3">
+                <label class="header" for="q3">
+                    Onde posso ver a Netflix?
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </label>
+                <div class="answer">
+                    <p>Veja onde quiser, quando quiser. Inicie sessão com a sua conta Netflix para ver instantaneamente
+                        na
+                        web em netflix.com no seu PC ou em qualquer dispositivo com ligação à internet que tenha a
+                        aplicação
+                        Netflix, incluindo televisores Smart TV, smartphones, tablets, dispositivos de streaming e
+                        consolas
+                        de jogos.<br><br>
+
+                        Também pode transferir os seus filmes e séries favoritos através da aplicação para iOS, Android
+                        ou
+                        Windows 10. Transfira títulos para ver em qualquer lugar e sem uma ligação à internet. Leve a
+                        Netflix consigo para onde quiser.</p>
+                </div>
+            </div>
+
+            <div class="question">
+                <input type="checkbox" id="q4">
+                <label class="header" for="q4">
+                    Como posso cancelar?
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </label>
+                <div class="answer">
+                    <p>A Netflix é flexível. Sem contratos exigentes nem fidelização. Pode cancelar facilmente a sua
+                        conta
+                        online com dois cliques. Sem custos de cancelamento: ative ou cancele a sua conta em qualquer
+                        altura.</p>
+                </div>
+            </div>
+
+            <div class="question">
+                <input type="checkbox" id="q5">
+                <label class="header" for="q5">
+                    O que posso ver na Netflix?
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </label>
+                <div class="answer">
+                    <p>A Netflix tem uma vasta biblioteca de originais Netflix premiados, títulos de animé, filmes,
+                        documentários, séries, programas de televisão e muitos outros conteúdos. Veja os títulos que
+                        quiser,
+                        quando quiser.</p>
+                </div>
+            </div>
+
+            <div class="question">
+                <input type="checkbox" id="q6">
+                <label class="header" for="q6">
+                    A Netflix é adequada para crianças?
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </label>
+                <div class="answer">
+                    <p>A adesão à Netflix inclui um perfil Crianças para dar aos pais um melhor controlo, bem como um
+                        espaço dedicado às crianças, com filmes e séries para toda a família.<br><br>
+
+                        Os perfis Crianças incluem funcionalidades de controlo parental com acesso por PIN, que lhe
+                        permitem
+                        alterar a classificação etária dos conteúdos que as suas crianças podem ver e bloquear títulos
+                        específicos.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3>Quer começar a ver? Introduza o seu e-mail para criar ou reativar a sua conta.</h3>
+        <form>
+            <div>
+                <input type="email">
+                <span>Endereço de e-mail</span>
+            </div>
+            <div>
+                <button>Começar &gt;</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
