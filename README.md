@@ -28,7 +28,7 @@ Navigate to the project directory: cd netflix-clone
 Open the index.html file in your preferred web browser.
 Explore the website.
 
-##Author
+## Author
 Joaquim Luzia
 
 ## Acknowledgments
